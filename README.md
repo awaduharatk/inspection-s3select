@@ -46,5 +46,5 @@ aws s3selectの検証
 
 
 
-
-https://docs.aws.amazon.com/ja_jp/AmazonS3/latest/dev/SelectObjectContentUsingJava.html
+## Javaから動かす
+Javaからもとりあえず動かした  
