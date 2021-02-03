@@ -1,0 +1,12 @@
+version: '3'
+services:
+  development-aws:
+    restart: always
+    build:
+      context: ../
+      dockerfile: ./docker/Dockerfile
+    container_name: 'development-aws-s3select'
+    working_dir: '/work'
+    tty: true
+    volumes:
+      - ../:/work
